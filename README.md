@@ -1,7 +1,6 @@
 # Twitter_API
 
-Absolutely! I can help you create a **comprehensive README** for your X Account Finder group project following your instructor’s format. I’ll structure it professionally and include placeholders for sensitive keys, team roles, and instructions. You can fill in specific details as needed.
-
+Twitter(X) API using Bearer Token that fetches data based on the input username,
 ---
 
 # X Account Finder - Group Project
