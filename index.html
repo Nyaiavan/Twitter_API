@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>X Account Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="darkToggle" class="dark-toggle" title="Toggle dark mode">
+  <i class="fas fa-moon"></i>
+</button>
+
+<div class="container">
+  <div class="title"><i class="fab fa-twitter"></i> Account Finder</div>
+
+  <!-- SEARCH BOX -->
+  <div class="search-box">
+    <input type="text" id="username" placeholder="Enter X username" />
+    <button id="searchBtn" onclick="searchUser()">Search</button>
+  </div>
+
+  <!-- PROFILE CARD -->
+  <div class="profile-card" id="profile" style="display:none;">
+    <img id="profile-picture" class="profile-picture" alt="Profile Picture">
+    <div class="profile-text">
+      <h2 id="profile-name"></h2>
+      <p id="profile-username"></p>
+      <p><strong>ID:</strong> <span id="profile-id"></span></p>
+      <p><strong>Description:</strong> <span id="profile-description"></span></p>
+      <p><strong>Followers:</strong> <span id="profile-followers"></span></p>
+      <p><strong>Following:</strong> <span id="profile-following"></span></p>
+      <p><strong>Tweets:</strong> <span id="profile-tweets"></span></p>
+    </div>
+  </div>
+
+  <!-- ERROR -->
+  <div class="error" id="error" style="display:none;">
+    <p id="error-message"></p>
+    <button onclick="hideError()">Close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
