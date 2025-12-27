@@ -9,7 +9,6 @@ Twitter(X) API using Bearer Token that fetches data based on the input username,
 
 **X Account Finder** is a web application that allows users to search for X (formerly Twitter) accounts by username and view profile information dynamically. The project uses the X API v2 and demonstrates API integration, DOM manipulation, responsive design, and error handling.
 
-
 # 1. Base URL
 
 ```
